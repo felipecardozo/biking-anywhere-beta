@@ -1,0 +1,83 @@
+body{
+	font-family: "Proxima Nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: 0px;
+}
+
+header img { 
+	width: 72px; 
+}
+
+.header { 
+	background-color: #0e2639; opacity: 0.4; color: white; 
+}
+
+.header .header-options { 
+	float: right; display: inline-block; 
+}
+
+.header .header-options ul.menu-header-navigation{
+	padding-top: 25px;padding-top: 12px;
+}   
+
+.header .header-options ul.menu-header-navigation li { 
+	display: inline; padding: 0 18px; text-decoration: none;padding: 16px 18px; 
+}
+
+.header .header-options ul.menu-header-navigation li a {
+	color: white; text-decoration: none;
+}
+
+.footer { 
+	background-color: #0e2639; opacity: 0.4; color: rgb(255,255,255); height: 200px;
+}
+
+.footer .bottom-centered {
+	text-align: center; padding-top: 34px;font-size: 20px;
+}
+
+.footer .bottom-centered h2{
+	text-transform: capitalize; margin-bottom: 18px;
+}
+
+.footer .bottom-centered ul.social-list {
+	list-style: none; color: rgb(255, 255, 255);padding-left: 0px; margin-top: 18px;
+}
+
+.footer .bottom-centered ul.social-list li {
+	display: inline; padding: 0 5px 0 5px;
+}
+
+.footer .bottom-centered ul.social-list li a {
+	text-decoration: none; color: rgb(255,255,255);
+}
+
+body .banner-top{
+	background-image: url("/content/img_principal.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	height: 500px;
+	width: 100%;
+	text-align: center;
+}
+
+body .banner-top .banner-top-text{
+	vertical-align: middle;
+	position: relative;
+    top: 40%;
+}
+
+h1{
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.banner-top h1{
+	font-size: 4em;
+	color: rgb(255, 255, 255);
+}
+
+.banner-top h2{
+	font-size: 2em;
+	color: rgb(255, 255, 255); 
+}
