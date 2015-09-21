@@ -1,0 +1,20 @@
+<div class="carousel" ng-controller="CarouselDemoCtrl" >
+	
+	<div class="carousel-title">
+		<p>
+		Go ride around the world<br>
+		this cities can be discovered in other way in a bike
+		</p>
+	</div>
+
+	<div style="height: 305px">
+		<carousel interval="myInterval" no-wrap="noWrapSlides">
+			<slide ng-repeat="slide in slides" active="slide.active">
+				<img ng-src="{{slide.image}}" style="margin:auto;">
+				<div class="carousel-caption">
+					<h2>{{slide.name}}</h2>
+				</div>
+			</slide>
+		</carousel>
+	</div>
+</div>

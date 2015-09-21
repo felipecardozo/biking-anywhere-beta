@@ -28,7 +28,7 @@ header img {
 }
 
 .footer { 
-	background-color: #0e2639; opacity: 0.4; color: rgb(255,255,255); height: 200px;
+	background-color: #0e2639; opacity: 0.4; color: rgb(255,255,255); height: 200px; margin-top: 140px;
 }
 
 .footer .bottom-centered {
@@ -64,7 +64,7 @@ body .banner-top{
 body .banner-top .banner-top-text{
 	vertical-align: middle;
 	position: relative;
-    top: 40%;
+    top: 33%;
 }
 
 h1{
@@ -81,3 +81,55 @@ h1{
 	font-size: 2em;
 	color: rgb(255, 255, 255); 
 }
+
+.carousel{
+	width: 960px;
+	height: 550px;
+	margin: 30px auto;
+}
+
+.carousel .carousel-title{
+	text-align: center;
+	font-size: 2em;
+}
+
+.carousel .carousel-inner>.item>img{
+	width: 960px;
+	height: 550px;
+	overflow: hidden;
+	-o-object-fit: none;
+	-o-object-position: 25% 50%;
+	-o-transition: 1s width, 1s height;
+}
+
+.search-city{
+	margin-top: 33px;
+}
+
+.search-city .search-wrap .geolocation-wrap{
+	display: inline-block;
+	float: left;
+	width: 278px;
+}
+
+.search-city .search-wrap .geolocation-wrap .search-button{
+	height: 45px;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.search-city .search-button-wrap{
+	display: inline-block;
+	float: right;
+}
+
+.search-city .search-button-wrap .search-button{
+	display: inline-block;
+	float: right;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.banner-top-text .search-city .search-wrap{
+	display: block;
+}
+
+

@@ -1,18 +1,31 @@
-angular.module('biking-anywhere', ['ngAnimate', 'ui.bootstrap']);
+
 angular.module('biking-anywhere').controller('CarouselDemoCtrl', function ($scope) {
-  $scope.myInterval = 3000;
+  $scope.myInterval = 5000;
+  $scope.noWrapSlides = false;
   $scope.slides = [
     {
-      image: 'http://lorempixel.com/700/400/sports'
+      image: '/content/carousel/bike_sanfrancisco.jpg',
+      name: 'San Francisco'
     },
     {
-      image: 'http://lorempixel.com/700/400/sports'
+      image: '/content/carousel/bike_newyork.jpg',
+      name: 'New York'
     },
     {
-      image: 'http://lorempixel.com/700/400/sports'
+      image: '/content/carousel/bike_seattle.jpg',
+      name: 'Seattle'
     },
     {
-      image: 'http://lorempixel.com/700/400/sports'
+      image: '/content/carousel/bike_chicago.jpg',
+      name: 'Chicago'
+    },
+    {
+      image: '/content/carousel/bike_Strasbourg.jpg',
+      name: 'Strasbourg'
+    },
+    {
+      image: '/content/carousel/bike_berlin.jpg',
+      name: 'Berlin'
     }
   ];
 });
