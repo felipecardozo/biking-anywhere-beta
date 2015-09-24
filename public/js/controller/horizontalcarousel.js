@@ -1,5 +1,4 @@
-
-angular.module('biking-anywhere').controller('CarouselDemoCtrl', function ($scope) {
+app.controller('CarouselDemoCtrl', function ($scope) {
   $scope.myInterval = 5000;
   $scope.noWrapSlides = false;
   $scope.slides = [

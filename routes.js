@@ -17,4 +17,10 @@ router.get("/profile", function(req, res){
 	});
 });
 
+router.get("/search", function(req, res){
+	res.render("search", {
+		title: "Search Page"
+	});
+});
+
 module.exports = router;

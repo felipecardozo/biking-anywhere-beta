@@ -1,6 +1,5 @@
 body{
-	font-family: "Proxima Nova","Helvetica Neue",Helvetica,Arial,sans-serif;
-	margin: 0px;
+	font-family: "Proxima Nova","Helvetica Neue",Helvetica,Arial,sans-serif; margin: 0px;
 }
 
 header img { 
@@ -62,35 +61,27 @@ body .banner-top{
 }
 
 body .banner-top .banner-top-text{
-	vertical-align: middle;
-	position: relative;
-    top: 33%;
+	vertical-align: middle; position: relative; top: 33%;
 }
 
 h1{
-	margin-top: 0px;
-	margin-bottom: 20px;
+	margin-top: 0px; margin-bottom: 20px;
 }
 
 .banner-top h1{
-	font-size: 4em;
-	color: rgb(255, 255, 255);
+	font-size: 4em; color: rgb(255, 255, 255);
 }
 
 .banner-top h2{
-	font-size: 2em;
-	color: rgb(255, 255, 255); 
+	font-size: 2em; color: rgb(255, 255, 255); 
 }
 
 .carousel{
-	width: 960px;
-	height: 550px;
-	margin: 30px auto;
+	width: 960px; height: 550px; margin: 30px auto;
 }
 
 .carousel .carousel-title{
-	text-align: center;
-	font-size: 2em;
+	text-align: center; font-size: 2em;
 }
 
 .carousel .carousel-inner>.item>img{
@@ -106,26 +97,25 @@ h1{
 	margin-top: 33px;
 }
 
-.search-city .search-wrap .geolocation-wrap{
-	display: inline-block;
-	float: left;
-	width: 278px;
+.search-city .search-wrap{
+	width:450px; text-align:center; margin:0 auto;
 }
 
-.search-city .search-wrap .geolocation-wrap .search-button{
-	height: 45px;
-	border-radius: 5px 0px 0px 5px;
+
+.search-city .search-wrap .geolocation-wrap{
+	display: inline-block; width: 388px;
+}
+
+.search-city .search-wrap .geolocation-wrap .search-text{
+	height: 45px; border-radius: 5px 0px 0px 5px;
 }
 
 .search-city .search-button-wrap{
-	display: inline-block;
-	float: right;
+	display: inline-block; float: right;
 }
 
 .search-city .search-button-wrap .search-button{
-	display: inline-block;
-	float: right;
-	border-radius: 0px 5px 5px 0px;
+	display: inline-block; float: right; border-radius: 0px 5px 5px 0px;
 }
 
 .banner-top-text .search-city .search-wrap{

@@ -1,18 +1,18 @@
-<div class="banner-top" >
+<div class="banner-top" ng-controller="HomeCtrl" >
 	
 	<div class="banner-top-text">
 		<h1>Biking any where</h1>
 		<h2>are you ready to ride ?</h2>
-		<form class="search-city" name="findcities" action="#" ng-controller="SearchCtrl" ng-submit="submitSearch()" >
-			<div style="width:340px;text-align:center;margin:0 auto;" class="input-group search-wrap">
+		<form class="search-city" id="form" action="../search" method="GET" ng-submit="submitSearch()" >
+			<div class="input-group search-wrap">
 				<div class="geolocation-wrap">
-					<input type="text" autocomplete="off" placeholder="Where do you want to bike ?" title="" id="geocomplete" class="form-control search-text">
+					<input type="text" id="Autocomplete" class="form-control search-text" ng-autocomplete="result" details="details" options="options"/>
 				</div>
 				<div class="search-button-wrap">
 					<input type="submit" class="btn btn-lg btn-primary search-button" id="find" value="GO">
 				</div>
-				
 			</div>
 		</form>
 	</div>
+
 </div>
